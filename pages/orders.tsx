@@ -1,10 +1,10 @@
 import LandingTemplate from '@/components/templates/LandingTemplate/LandingTemplate'
-import HomeTemplate from '@/components/templates/HomeTemplate/HomeTemplate'
+import OrdersTemplate from '@/components/templates/OrdersTemplate/OrdersTemplate'
 
 export default function Home() {
   return (
-      <LandingTemplate >
-        <HomeTemplate />
+      <LandingTemplate>
+        <OrdersTemplate />
       </LandingTemplate>
   )
 }
